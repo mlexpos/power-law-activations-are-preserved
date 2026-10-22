@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+results/*.npz
+*.log
+.DS_Store
+docs/_site/
+data
+HANDOFF.md
+figures/*_quick.*

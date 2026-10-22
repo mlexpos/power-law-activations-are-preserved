@@ -1,0 +1,5 @@
+numpy>=1.24
+matplotlib>=3.7
+# required for Experiment 5 (experiments/sm5_depth: networks and training); optional elsewhere,
+# where it runs the larger computations on a GPU:
+torch>=2.0

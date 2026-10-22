@@ -1,0 +1,25 @@
+title: Power-law spectrum of the random feature model — experiments
+description: Reproducible numerical experiments accompanying the paper
+paper_title: "Power-Law Spectrum of the Random Feature Model"
+paper_authors: "E. Paquette, K. L. Xiao, Y. Zhu"
+paper_url: "https://arxiv.org/abs/2603.14578"
+repo_url: "https://github.com/mlexpos/power-law-activations-are-preserved"
+baseurl: "/power-law-activations-are-preserved"
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  hard_wrap: false
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
+nav:
+  - { title: "Overview", url: "/" }
+  - { title: "Methods", url: "/methods.html" }
+  - { title: "The main theorem", url: "/experiments/fig2-theorem.html" }
+  - { title: "Other activations", url: "/experiments/fig2-activations.html" }
+  - { title: "Other input distributions", url: "/experiments/fig3-universality.html" }
+  - { title: "Depth and training", url: "/experiments/sm5-depth.html" }
+  - { title: "α < 1", url: "/experiments/sm6-alpha.html" }
+  - { title: "Reproducing", url: "/reproduce.html" }
+  - { title: "Revision notes", url: "/revisions.html" }
